@@ -40,7 +40,7 @@ class ForgotPasswordPageState extends State<ForgotPasswordPage> {
         children: [
           const LogoWidget(),
           CardAuthTemplateWidget(
-            title: 'Sign in',
+            title: 'Forgot Passsword',
             child: Column(
               children: [
                 buildInputTextEmail(),
